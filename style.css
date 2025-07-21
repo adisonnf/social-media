@@ -1,0 +1,152 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+body {
+    background-color: #C0C6DC;
+}
+aside{
+    border-radius: 40px;
+    width: 370px;
+    background: rgba(224, 235, 254, 0.7);
+}
+button{
+    border: 1px solid #7549ea;
+    border-radius: 16px;
+    padding: 14px 16px;
+    width: 290px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+hr {
+    border: 1px solid #e0eafe;
+    width: 710px;
+    height: 0px;
+    margin: 0;
+}
+ol {
+    padding: 0;
+    padding-left: 20px;
+}
+li {
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+li::marker, .list-item {
+    font-weight: 700;
+    font-size: 14px;
+    color: #1f2937;
+}
+h1 {
+    margin: 0;
+}
+h2 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #1f2937;
+    margin-bottom: 8px;
+}
+p {
+    margin: 0;
+    line-height: 171%;
+}
+.body {
+    border-radius: 40px;
+    width: 1200px;
+    background-color: #fff;
+    margin: 27px auto;
+    padding: 13px 18px;
+    gap: 60px;
+    display: flex;
+}
+.title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 73px;
+}
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4a5161;
+    margin: 24px 0;
+}
+.fav-games {
+    margin: 24px 0;
+}
+.achievements{
+    margin: 24px 0;
+}
+.inner-list {
+    margin-top: 10px;
+    list-style-type: disc;
+}
+.inner-list > li {
+    font-weight: 400;
+    color: #4a5161;
+}
+.info > p {
+    display: flex;
+    gap: 24px;
+}
+.info > p > b {
+    width: 80px;
+}
+.aside {
+    padding: 40px;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.top {
+    background: #7549ea;
+    color: #fff;
+}
+.bottom {
+    background: inherit;
+    color: #7549ea;
+}
+.myfriends {
+    margin: 48px 0;
+}
+.friends-counter {
+    font-weight: 400;
+    font-size: 22px;
+    color: #4a5161;
+    padding-left: 16px;
+}
+.interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0;
+}
+ .interest-item {
+    border-radius: 6px;
+    padding: 0px 8px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7549ea;
+    background: rgba(117, 73, 234, 0.2);
+}
+.friends {
+    width: 290px;
+}
+.food {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4a5161;
+    margin-top: 16px;
+    margin-bottom: 60px;
+}
+.kitty {
+    font-weight: 700;
+    color: #1f2937;
+}
